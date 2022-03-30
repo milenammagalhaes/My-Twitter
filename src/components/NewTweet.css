@@ -1,0 +1,22 @@
+.home{
+  font-size: 22px;
+  padding: 3px 15px;
+}
+
+.grid{
+  display: flex;
+  align-items: center;
+}
+
+.userPhoto{
+  border-radius: 50%;
+  margin: 2px 7px;
+}
+
+.tweetBox{
+  border: none;
+  text-align: left;
+
+}
+
+

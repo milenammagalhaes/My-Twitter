@@ -1,0 +1,25 @@
+.layout{
+  display: flex;
+  /* flex-basis: auto; */
+  margin: 0;
+  padding: 0;
+  width: 2000px;
+  height: 940px;
+}
+
+.colNavBar{
+  border-right: 1px rgb(179, 179, 179) solid;
+  /* max-width:30%;  */
+}
+
+.colTweet{
+  border-right: 1px rgb(179, 179, 179) solid;
+  /* width: 1000px; */
+  max-width:60%; 
+}
+
+.colTrends{
+  width: 100px;
+  max-width:20%; 
+}
+
