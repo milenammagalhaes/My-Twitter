@@ -7,19 +7,21 @@
   height: 940px;
 }
 
-.colNavBar{
+.leftSide{
   border-right: 1px rgb(179, 179, 179) solid;
-  /* max-width:30%;  */
+  height: 100vh;
+  position: relative;
+  display:flex;
+  flex-direction: column;
 }
 
-.colTweet{
+.middleSide{
   border-right: 1px rgb(179, 179, 179) solid;
   /* width: 1000px; */
   max-width:60%; 
 }
 
-.colTrends{
+.rightSide{
   width: 100px;
   max-width:20%; 
 }
-

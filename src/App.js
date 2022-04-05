@@ -21,11 +21,11 @@ const App = () => {
 
   return (
     <Container className="layout">
-      <Col xs={4} className="colNavBar"> <NavBar /> </Col>
-      <Col xs={10} className="colTweet">
+      <Col xs={4} className="leftSide"> <NavBar /> </Col>
+      <Col xs={10} className="middleSide">
         <NewTweet />
       </Col>
-      {/* <Col className="colTrends"> Trends </Col> */}
+      {/* <Col className="rightSide"> Trends </Col> */}
     </Container>
   )
 

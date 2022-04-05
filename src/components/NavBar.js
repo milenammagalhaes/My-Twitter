@@ -7,6 +7,8 @@ import { Row, Container, Col } from 'react-bootstrap';
 const NavBar = () => {
 
   return (
+    <div>
+
     <div className="navbar">
       <FontAwesomeIcon icon={faTwitter} className="icon twitter" /> 
       
@@ -49,7 +51,21 @@ const NavBar = () => {
         <Col className="icon" > <FontAwesomeIcon icon={faEllipsisH}/> </Col>
         <Col>  <i>More</i> </Col>
       </Container>   
+
+      <button className="tweetButton"> Tweet </button>
     </div>
+
+      <button className="endButton">
+        <Container className="userData">
+          <Col xs={1}>  <img src="./user.jpg" alt="" style={{ width: '60px', height: '60px' }} className="userPhoto" />  </Col>
+          <Col xs={5} className="userName"> <Row> <h5> mimi </h5> </Row> <Row> <h6> @mi_mmagalhaes </h6> </Row></Col>
+          <Col xs={1}> <h4>...</h4></Col>
+        </Container>
+      </button>
+      
+    </div>
+
+      
   )
 }
 
